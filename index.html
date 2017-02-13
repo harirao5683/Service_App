@@ -1,0 +1,14 @@
+<html ng-app="WebService">
+    <head>
+        <script src="angular.js"></script>
+        <script src="app.js"></script>
+        <script src="controller.js"></script>
+        <script src="service.js"></script>
+    </head>
+    <body ng-controller="HttpServiceInvoke as ctrl" >
+        <div ng-repeat="cts in ctrl.contacts.records">
+            The age of {{cts.name}} is {{cts.age}}
+        </div>
+    </body>
+</html>
+

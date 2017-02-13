@@ -1,0 +1,24 @@
+{
+    "records":[
+        {
+            "id":1,
+            "name":"hari",
+            "age":23
+        },
+        {
+            "id":2,
+            "name":"raja",
+            "age": 22
+        },
+        {
+            "id":3,
+            "name":"mayuri",
+            "age":18
+        },
+        {
+            "id":4,
+            "name":"keerthi",
+            "age":24
+        }
+    ]
+}
